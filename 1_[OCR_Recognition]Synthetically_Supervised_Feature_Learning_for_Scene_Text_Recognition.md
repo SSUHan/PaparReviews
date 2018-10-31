@@ -90,5 +90,11 @@ Scene Text Recognition 필드에서 Synthetic Data 와 Multitask Learning 기법
 
 ![](./assets/1_ablation_results.png)
 
+### 6. Conclusion and Contribution
 
+- Synthetic data generation process 와 OCR Recognition Field 에서는 처음으로 multi-task learning 방법을 적용하였다
+- Encoder-generator-discriminator-decoder 구조로 clean image 로 부터 feature learning 을 하였다
+- 그리하여 generalized benchmark dataset 에서 SOTA 를 찍어냈다
+- 추가로 severe geometric distortion 이 있는 이미지에 대해서도 강인한 효과를 보였다
+- 그 과정에서 추가적인 explicit handling 이 없었다 (FAN paper 를 겨냥하고 말하는 듯함)
 
